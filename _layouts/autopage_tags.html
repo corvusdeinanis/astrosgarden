@@ -1,0 +1,9 @@
+---
+layout: page
+pagination: 
+  enabled: true
+  per_page: 10
+---
+<div style="margin-left: 5%; margin-right: 5%;">
+<h3>Notes with Tag <b>{% if page.autopages %}{{page.autopages.display_name | capitalize }}{% endif %}</b> - Page {{page.pagination_info.curr_page}} of {{page.pagination_info.total_pages}}</h3>
+{% include notes.html %}

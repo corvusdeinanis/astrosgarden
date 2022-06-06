@@ -1,0 +1,87 @@
+---
+layout: page
+title: Home
+id: home
+permalink: /
+pagination:
+  enabled: true
+
+---
+<p style="padding: 3rem 3.75rem; background: #fcd7d6; margin-bottom: 2rem; border-radius: .3rem; box-sizing: border-box; max-width: 66.666667%; text-align: center; position: relative; width: 100%; padding-right: 15px; padding-left: 15px; margin-left: 16.666667%;">
+  <b>Explore</b>
+  {% comment %}map, flatten and sort{% endcomment %}
+{% assign tags =  site.notes | map: 'tags' | join: ','  | split: ',' | sort %}
+{% assign previousTag = "" %}
+{% assign counter = 0 %}
+
+{% for currentTag in tags %}
+
+  {% comment %}first loop : initializing previousTag{% endcomment %}
+  {% if previousTag == "" %}
+    {% assign previousTag = currentTag %}
+  {% endif %}
+
+  {% if currentTag == previousTag %}
+    {% assign counter = counter | plus: 1 %}
+  {% else %}
+	{% if previousTag == "cloudflare" %}
+		<a href="{{ '/tag/' | prepend: site.baseurl | replace: '//', '/' }}{{- previousTag -}}"><i class='fab fa-cloudflare'></i>&nbsp;{{- previousTag -}}&nbsp;({{ counter }})</a>
+	{% elsif previousTag == "digitalgarden" %}
+		<a href="{{ '/tag/' | prepend: site.baseurl | replace: '//', '/' }}{{- previousTag -}}"><i class='fa fa-seedling'></i>&nbsp;{{- previousTag -}}&nbsp;({{ counter }})</a>
+	{% else %}
+		<a href="{{ '/tag/' | prepend: site.baseurl | replace: '//', '/' }}{{- previousTag -}}">{{- previousTag -}}&nbsp;({{ counter }})</a>
+	{% endif %}
+	{% assign counter = 1 %}
+  {% endif %}
+
+  {% comment %}last loop : flushing what's left to print{% endcomment %}
+  {% if forloop.last %}
+    {% if previousTag == "cloudflare" %}
+		<a href="{{ '/tag/' | prepend: site.baseurl | replace: '//', '/' }}{{- currentTag -}}"><i class='fab fa-cloudflare'></i>&nbsp;{{- currentTag -}}&nbsp;({{ counter }})</a>
+	{% elsif previousTag == "digitalgarden" %}
+		<a href="{{ '/tag/' | prepend: site.baseurl | replace: '//', '/' }}{{- currentTag -}}"><i class='fa fa-seedling'></i>&nbsp;{{- currentTag -}}&nbsp;({{ counter }})</a>
+	{% else %}
+		<a href="{{ '/tag/' | prepend: site.baseurl | replace: '//', '/' }}{{- currentTag -}}">{{- currentTag -}}&nbsp;({{ counter }})</a>
+	{% endif %}
+  {% endif %}
+
+  {% assign previousTag = currentTag %}
+
+{% endfor %}
+
+</p>
+
+<p style ="text-align:right;"> <a href = "/resources"> Resources</a> </p>
+  
+
+<h1 style ="text-align:center;"> Welcome! 🌱 </h1>
+
+<p style="padding: 3em 1em; background: #fcd7d6; border-radius: 4px;max-width: 70%;padding-right: 15px; padding-left: 15px; margin-left: 16.666667%;"> 
+Hi! I believe that while healing can be done alone, peer support is super helpful and in some cases, necessary. I genuinely believe the community aspect of healing is oft overlooked.  <br> <br>
+  I believe in <span style="font-weight: bold">[[survivor led]]</span> and survivor-centric healing over ones run by medical professionals. <br> <br>
+ I also believe resources should be free, that healthcare should be accessible to everyone. <br> 
+This is a <span style="font-weight: bold"> community-first </span> space; by the community for the community. We share resources, stories, experiences. <br>
+Because your voice matters. Because we can heal as a community. Share everything you've found helpful in your journey and take a look at everything that has helped others.
+<br>	And remember, your journey is yours, it's <span style="font-weight: bold">personal</span>; take what works for you and discard the rest. 
+<br> <br><strong> [[Start here]] if you're confused!</strong>  <br> <br>
+You are valid. Your emotions are valid. 🌻♥
+	
+	
+</p>
+<br>
+	
+
+  
+
+<style>
+  .wrapper {
+    max-width: 46em;
+  }
+</style>
+
+
+   <script data-goatcounter="https://healing.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+   
+ 
+   

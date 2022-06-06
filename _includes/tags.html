@@ -1,0 +1,7 @@
+<h3 style="margin-bottom: 1em"><i class='fa fa-tags'></i> Tags</h3>
+<ul class="tag">
+  {% for tag in page.tags %}
+    <li class="tag__item"><a href="{{ '/tag/' | prepend: site.baseurl | replace: '//', '/' }}{{- tag -}}">{{- tag -}}</a></li>
+  {% endfor %}
+</ul>
+<a href = "/resources"> Resources</a>

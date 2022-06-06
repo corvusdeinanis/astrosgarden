@@ -1,0 +1,36 @@
+<div class="posts-list">
+  {% for note in paginator.posts %} <!-- site.notes -->
+  <article class="post-preview">
+
+    <h2 class="post-title">{{ note.title }}</h2>
+    <p class="post-meta">
+	  <time datetime="{{ note.date | date_to_xmlschema }}">{% if note.type != 'pages' %}
+      Last updated on {{ note.date | date: "%B %-d, %Y" }}
+      {% endif %}
+    </time>
+    </p>
+
+    <div class="post-entry">
+      {% assign excerpt_length = site.excerpt_length | default: 50 %}
+      {{ note.excerpt | strip_html | truncatewords: excerpt_length }}
+      {% assign excerpt_word_count = note.excerpt | number_of_words %}
+      {% if note.content != note.excerpt or excerpt_word_count > excerpt_length %}
+        <a href="{{ note.url }}">[Read&nbsp;More]</a>
+      {% endif %}
+    </div>
+
+    {% if site.feed_show_tags != false and note.tags.size > 0 %}
+    <div class="blog-tags">
+      <span>Tags:</span>
+      {% for tag in note.tags %}
+		<a href="{{ '/tag/' | prepend: site.baseurl | replace: '//', '/' }}{{- tag -}}">{{- tag -}}</a>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+  </article>
+  {% endfor %}
+  
+  {% include pagination.html %}
+</div>
+

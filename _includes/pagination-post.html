@@ -1,0 +1,22 @@
+<h3>Read other notes</h3>
+<div class="pagination">
+  {% if page.next.url %}
+    <a href="{{ page.next.url }}" class="pagination__previous">
+      <span class="pagination__previous-text">Previous</span>
+    </a>
+  {% else %}
+    <span class="pagination__previous--edge">
+      <span class="pagination__previous-text">Previous</span>
+    </span>
+  {% endif %}
+  {% if page.previous.url %}
+    <a href="{{ page.previous.url }}" class="pagination__next">
+      <span class="pagination__next-text">Next</span>
+    </a>
+  {% else %}
+    <span class="pagination__next--edge">
+      <span class="pagination__next-text">Next</span>
+    </span>
+  {% endif %}
+</div>
+
