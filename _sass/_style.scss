@@ -17,7 +17,7 @@ body {
   color: $color-text;
   font-size: 1rem;
   max-width: 63em;
-background-color: #372248;
+background-color: #171123;
   @media (min-width: 820px) {
     font-size: 1.2rem;
   }
@@ -53,6 +53,7 @@ blockquote {
 
   p {
     margin: 0;
+    background: #d672b6;
   }
 }
 
