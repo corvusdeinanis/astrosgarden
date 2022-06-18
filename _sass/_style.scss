@@ -1,146 +1,116 @@
-$color-primary: black;
-$color-text: black;
-$color-subtext: "dark grey";
-$color-border: pink;
-$color-box-background: turquoise;
-$border-radius: 4px;
-$font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial,
-  sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-
 body {
-  box-sizing: content-box;
-  font-family: $font-family;
-  margin: 0 auto;
-  line-height: 1.7;
-  padding: 4vh 6vw;
-  overflow-x: hidden;
-  color: $color-text;
-  font-size: 1rem;
-  max-width: 63em;
-
-  @media (min-width: 820px) {
-    font-size: 1.2rem;
-  }
+	 box-sizing: content-box;
+	 font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+	 margin: 0 auto;
+	 line-height: 1.7;
+	 padding: 4vh 6vw;
+	 overflow-x: hidden;
+	 color: #333;
+	 font-size: 1rem;
+	 max-width: 63em;
 }
-
-time {
-  display: block;
-  color: $color-subtext;
-  margin: 0.5em 0 1em;
+ @media (min-width: 820px) {
+	 body {
+		 font-size: 1.2rem;
+	}
 }
-
-footer {
-  margin: 2em 0;
-  font-size: 0.8em;
-  color: mix($color-text, white, 80%);
-  padding-top: 1em;
+ time {
+	 display: block;
+	 color: #4d4d4d;
+	 margin: 0.5em 0 1em;
 }
-
-img {
-  max-width: 100%;
-  display: block;
-  margin: 0 auto;
-  max-height: 75vh;
-  border-radius: $border-radius;
+ footer {
+	 margin: 2em 0;
+	 font-size: 0.8em;
+	 color: #5c5c5c;
+	 padding-top: 1em;
 }
-
-blockquote {
-  padding: 1.5em;
-  margin: 0;
-  font-size: 0.88em;
-  background: $color-box-background;
-  border-radius: $border-radius;
-
-  p {
-    margin: 0;
-  }
+ img {
+	 max-width: 100%;
+	 display: block;
+	 margin: 0 auto;
+	 max-height: 75vh;
+	 border-radius: 4px;
 }
-
-hr {
-  width: 100%;
-  border: 0;
-  height: 1px;
-  margin: 1.5em 0;
-  background: $color-border;
+ blockquote {
+	 padding: 1.5em;
+	 margin: 0;
+	 font-size: 0.88em;
+	 background: #f6f6f6;
+	 border-radius: 4px;
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  line-height: 1.3;
-  margin-bottom: 0;
-  padding-bottom: 0;
+ blockquote p {
+	 margin: 0;
 }
-
-a {
-  transition: background 300ms;
-  padding: 0 0.1em;
-  text-decoration: none;
-  border-bottom: 1px solid $color-border;
-  color: $color-primary;
-  &:hover {
-    color: black !important;
-    background: #fffaf1;
-  }
-  &:after {
-    position: relative;
-    top: -0.5em;
-    font-size: 0.7em;
-    content: "↗";
-    color: #aaaaaa;
-  }
-  &.internal-link:after,
-  &.footnote:after,
-  &.reversefootnote:after {
-    content: "";
-  }
+ hr {
+	 width: 100%;
+	 border: 0;
+	 height: 1px;
+	 margin: 1.5em 0;
+	 background: #d9d9d9;
 }
-
-*:focus {
-  background: #ffe8bc !important;
-  color: black !important;
+ h1, h2, h3, h4, h5, h6 {
+	 line-height: 1.3;
+	 margin-bottom: 0;
+	 padding-bottom: 0;
 }
-
-nav {
-  margin: 1em 0 3em;
+ a {
+	 transition: background 300ms;
+	 padding: 0 0.1em;
+	 text-decoration: none;
+	 border-bottom: 1px solid #d9d9d9;
+	 color: #1a1a1a;
 }
-
-#notes-entry-container {
-  display: grid;
-  grid-gap: 2em;
-  grid-template-areas:
-    "content"
-    "side";
-
-  @media (min-width: 700px) {
-    grid-template-columns: 3fr 1fr;
-    grid-template-areas: "content side";
-  }
+ a:hover {
+	 color: black !important;
+	 background: #fffaf1;
 }
-
-.backlink-box {
-  background: $color-box-background;
-  padding: 1em;
-  border-radius: $border-radius;
+ a:after {
+	 position: relative;
+	 top: -0.5em;
+	 font-size: 0.7em;
+	 content: "↗";
+	 color: #aaa;
 }
-
-code {
-  background: #f5f5f5;
-  padding: 0.1em 0.2em;
-  border-radius: 4px;
+ a.internal-link:after, a.footnote:after, a.reversefootnote:after {
+	 content: "";
 }
-
-.invalid-link {
-  color: #444444;
-  cursor: help;
-  background: #fafafa;
-  padding: 0 0.1em;
+ *:focus {
+	 background: #ffe8bc !important;
+	 color: black !important;
 }
-
-.invalid-link-brackets {
-  color: #ccc;
-  cursor: help;
+ nav {
+	 margin: 1em 0 3em;
 }
+ #notes-entry-container {
+	 display: grid;
+	 grid-gap: 2em;
+	 grid-template-areas: "content" "side";
+}
+ @media (min-width: 700px) {
+	 #notes-entry-container {
+		 grid-template-columns: 3fr 1fr;
+		 grid-template-areas: "content side";
+	}
+}
+ .backlink-box {
+	 background: #f6f6f6;
+	 padding: 1em;
+	 border-radius: 4px;
+}
+ code {
+	 background: #f5f5f5;
+	 padding: 0.1em 0.2em;
+	 border-radius: 4px;
+}
+ .invalid-link {
+	 color: #444;
+	 cursor: help;
+	 background: #fafafa;
+	 padding: 0 0.1em;
+}
+ .invalid-link-brackets {
+	 color: #ccc;
+	 cursor: help;
+}
+ 
