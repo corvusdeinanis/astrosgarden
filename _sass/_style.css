@@ -5,7 +5,7 @@ body {
 	 line-height: 1.7;
 	 padding: 4vh 6vw;
 	 overflow-x: hidden;
-	 color: #333;
+	 color: yellow;
 	 font-size: 1rem;
 	 max-width: 63em;
 }
@@ -22,7 +22,7 @@ body {
  footer {
 	 margin: 2em 0;
 	 font-size: 0.8em;
-	 color: #5c5c5c;
+	 color: purple;
 	 padding-top: 1em;
 }
  img {
@@ -63,7 +63,7 @@ body {
 }
  a:hover {
 	 color: black !important;
-	 background: #fffaf1;
+	 background: brown;
 }
  a:after {
 	 position: relative;
