@@ -8,6 +8,7 @@ body {
 	 color: yellow;
 	 font-size: 1rem;
 	 max-width: 63em;
+	background-color: black;
 }
  @media (min-width: 820px) {
 	 body {
