@@ -7,8 +7,11 @@ pagination:
   enabled: true
 
 ---
-<p style="padding: 3rem 3.75rem; background: #fcd7d6; margin-bottom: 2rem; border-radius: .3rem; box-sizing: border-box; max-width: 66.666667%; text-align: center; position: relative; width: 100%; padding-right: 15px; padding-left: 15px; margin-left: 16.666667%;">
-  <b>Explore</b>
+<h1 style ="text-align:center;"> Welcome! 🌱 </h1>
+
+<p style="padding: 1rem 3rem; background: #372248; margin-bottom: 2rem; border-radius: .3rem; box-sizing: border-box; max-width: 66.666667%; text-align: center; position: relative; width: 100%; padding-right: 15px; padding-left: 15px; margin-left: 16.666667%;">
+  <b>Explore</b> 
+<br>
   {% comment %}map, flatten and sort{% endcomment %}
 {% assign tags =  site.notes | map: 'tags' | join: ','  | split: ',' | sort %}
 {% assign previousTag = "" %}
@@ -48,15 +51,15 @@ pagination:
   {% assign previousTag = currentTag %}
 
 {% endfor %}
-
 </p>
+<hr>
 
 <p style ="text-align:right;"> <a href = "/resources"> Resources</a> </p>
   
 
-<h1 style ="text-align:center;"> Welcome! 🌱 </h1>
 
-<p style="padding: 3em 1em; background: #fcd7d6; border-radius: 4px;max-width: 70%;padding-right: 15px; padding-left: 15px; margin-left: 16.666667%;"> 
+
+<blockquote> <p>
 Hi! I believe that while healing can be done alone, peer support is super helpful and in some cases, necessary. I genuinely believe the community aspect of healing is oft overlooked.  <br> <br>
   I believe in <span style="font-weight: bold">[[survivor led]]</span> and survivor-centric healing over ones run by medical professionals. <br> <br>
  I also believe resources should be free, that healthcare should be accessible to everyone. <br> 
@@ -65,14 +68,10 @@ Because your voice matters. Because we can heal as a community. Share everything
 <br>	And remember, your journey is yours, it's <span style="font-weight: bold">personal</span>; take what works for you and discard the rest. 
 <br> <br><strong> [[Start here]] if you're confused!</strong>  <br> <br>
 You are valid. Your emotions are valid. 🌻♥
-	
-	
-</p>
-<br>
-	
+	</p>
+	</blockquote>
 
-  
-
+<hr>
 <style>
   .wrapper {
     max-width: 46em;
