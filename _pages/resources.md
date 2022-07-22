@@ -5,14 +5,7 @@ id : resources
 permalink : /resources
 ---
 
-<style> 
-h1,h2,h3,h4,h5{ text-align:center; }
-.box {
-padding: 2em 1em; background: #00af93; border-radius: 25px;max-width: 70%;padding-right: 15px; padding-left: 15px; margin-left: 16.666667%;
-}
-</style>
-
-<div class ="box"> In danger? Please talk to someone, a professional or even someone you can trust, or a helpline. Wait for the wave to pass. <br>
+In danger? Please talk to someone, a professional or even someone you can trust, or a helpline. Wait for the wave to pass. <br>
 
 <a> https://unitedgmh.org/mental-health-support </a> <br> <br>
 Need Someone to Talk to? -> <a href ="https://www.7cups.com"> 7 Cups Of Tea </a> (free volunteer listeners and paid counselors are both available) 
@@ -41,7 +34,7 @@ If anyone is being rude, invalidating or unpleasant (helpline or otherwise), ple
 </div>
 
 ## Android / iOS Apps
-<div class ="box">
+
 CBT App for Android and iOS -> <a> https://www.anxietycanada.com/resources/mindshift-cbt/ </a>
 
 Science backed apps (three apps, Thinkable, GG OCD, #selflove) Android and iOS -> <a>https://ggtude.com/#gg-downloads</a>
