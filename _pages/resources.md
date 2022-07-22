@@ -8,7 +8,7 @@ permalink : /resources
 <style> 
 h1,h2,h3,h4,h5{ text-align:center; }
 .box {
-padding: 2em 1em; background: #fcd7d6; border-radius: 25px;max-width: 70%;padding-right: 15px; padding-left: 15px; margin-left: 16.666667%;
+padding: 2em 1em; background: #00af93; border-radius: 25px;max-width: 70%;padding-right: 15px; padding-left: 15px; margin-left: 16.666667%;
 }
 </style>
 
