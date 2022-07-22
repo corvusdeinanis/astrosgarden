@@ -44,11 +44,13 @@ body {
 	 margin: 0;
 }
  hr {
-	 width: 100%;
+	 width: 80%;
 	 border: 0;
 	 height: 1px;
 	 margin: 1.5em 0;
 	 background: pink;
+	 opacity: 0.6;
+}
 }
  h1, h2, h3, h4, h5, h6 {
 	 line-height: 1.3;
