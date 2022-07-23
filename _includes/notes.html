@@ -4,10 +4,7 @@
 
     <h2 class="post-title">{{ note.title }}</h2>
     <p class="post-meta">
-	  <time datetime="{{ note.date | date_to_xmlschema }}">{% if note.type != 'pages' %}
-      Last updated on {{ note.date | date: "%B %-d, %Y" }}
-      {% endif %}
-    </time>
+	 
     </p>
 
     <div class="post-entry">
