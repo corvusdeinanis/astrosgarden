@@ -1,5 +1,6 @@
-## Welcome to Romblings! 🌱
-
+---
+title: Welcome to Romblings! 🌱
+---
 A hodge-podge of a digital garden[^digitalgarden], a codex vitae[^codex], a blog, and a wiki.  It's 
 somewhat the sum of all my knowledge. Constantly evolving, changing, and morphing. 
 
