@@ -10,3 +10,5 @@ The idea behind this site was to build something that summed up everything I hav
 <br><br>
 But that's not all! I realized that the strength lies in the community. That peer support is as valuable as it is scarce. That if we share everything we learn, even just tiny tidbits, we can accelerate healing. Also, this is the community's tiny effort towards making mental health resources a teeny tiny bit more accessible. <strong> Because knowledge is meant to be shared, not hoarded. Knowledge is meant to be distributed freely, not locked behind paywalls. </strong>
 </p>
+
+<iframe src="https://github.com/corvusdeinanis/astrosgarden/edit/main/_pages/about.md"></iframe>
