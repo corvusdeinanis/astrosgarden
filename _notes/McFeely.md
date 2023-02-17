@@ -1,9 +1,7 @@
 ---
-title: McFeely 
-date: 2021-10-28
-description: ''
-image: images/mcfeely.jpeg
-tags: ['wholesome','people']
+title : McFeely 
+date : 2021-10-28
+tags : ['wholesome','people','blog']
 ---
 
 It's nearly 5 AM, so I will aim for neither eloquence or style. I don't quite remember when I found out about Mr Rogers, quite possibly two years ago, or maybe more. Time seems to be a weird concept, doubly when you're in the middle of what seems to be a ceaseless pandemic.

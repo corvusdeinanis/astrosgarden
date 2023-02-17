@@ -1,0 +1,11 @@
+{
+  "baseFontSize": 15,
+  "enabledCssSnippets": [
+    "hide bullets dynamic toc"
+  ],
+  "accentColor": "#ea3e9a",
+  "theme": "moonstone",
+  "cssTheme": "Minimal",
+  "nativeMenus": false,
+  "translucency": false
+}

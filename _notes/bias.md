@@ -1,4 +1,11 @@
-![[The Cognitive Bias Codex.svg]]
+---
+title: 'Cognitive Biases'
+tags: ['psych','bias'] 
+
+---
+
+
+<iframe src = "The Cognitive Bias Codex.svg"></iframe>
 
 
 [Open](https://upload.wikimedia.org/wikipedia/commons/6/65/Cognitive_bias_codex_en.svg) the file hosted on Wikimedia Commons 

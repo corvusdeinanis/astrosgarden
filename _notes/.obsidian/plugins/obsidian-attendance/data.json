@@ -1,0 +1,15 @@
+{
+  "_version": 1,
+  "states": [
+    {
+      "name": "Present",
+      "icon": "✓",
+      "color": "#007e91"
+    },
+    {
+      "name": "Absent",
+      "icon": "✗",
+      "color": "#e50000"
+    }
+  ]
+}

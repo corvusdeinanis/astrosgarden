@@ -1,0 +1,8 @@
+---
+tags : wiki , psych 
+---
+
+<blockquote class="quoteback" darkmode="" data-title="Apophenia - Wikipedia" data-author="" cite="https://en.wikipedia.org/wiki/Apophenia">
+<b>Apophenia</b> (<a href="https://en.wikipedia.org/wiki/Help:IPA/English" title="Help:IPA/English" target="_blank" rel="noopener">/æpoʊˈfiːniə/</a>) is **the tendency to perceive meaningful connections between unrelated things.** The term (German: Apophänie from  the Greek verb ἀποφαίνειν (apophaínein)) was coined by psychiatrist <a href="https://en.wikipedia.org/wiki/Klaus_Conrad" title="Klaus Conrad" target="_blank" rel="noopener">Klaus Conrad</a> in his 1958 publication on the <a href="https://en.wikipedia.org/wiki/Prodrome#In_mental_health" title="Prodrome" target="_blank" rel="noopener">beginning stages of schizophrenia</a>. He defined it as "unmotivated seeing of connections [accompanied by] a specific feeling of abnormal meaningfulness". He described the early stages of delusional thought as self-referential over-interpretations of actual sensory perceptions, as opposed to <a href="https://en.wikipedia.org/wiki/Hallucination" title="Hallucination" target="_blank" rel="noopener">hallucinations</a>.
+
+<footer><cite> <a href="https://en.wikipedia.org/wiki/Apophenia">https://en.wikipedia.org/wiki/Apophenia</a></cite></footer></blockquote><script note="" src="https://cdn.jsdelivr.net/gh/Blogger-Peer-Review/quotebacks@1/quoteback.js"></script>

@@ -1,3 +1,5 @@
+
+
 tools
 
 	- adages
@@ -12,4 +14,5 @@ philosophies (like themes but more specific; theme is the overarching thingy tha
 
 thoughts, reflections, opinions -> mine
  
+ideas? 
 
